@@ -23,3 +23,5 @@ int main()
 	system("pause");
 	return 0;
 }
+
+// 기본 입출력
