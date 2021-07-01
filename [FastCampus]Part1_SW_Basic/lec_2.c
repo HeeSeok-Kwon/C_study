@@ -10,3 +10,5 @@ int main()
 	system("pause");
 	return 0;
 }
+
+// 변수와 상수
