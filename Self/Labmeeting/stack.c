@@ -55,3 +55,5 @@ void draw_stack(int* arr)
 	}
 	printf("\n");
 }
+
+// 2021.03.17 stack 시각화
