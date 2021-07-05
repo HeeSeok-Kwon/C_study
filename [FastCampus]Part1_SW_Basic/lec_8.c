@@ -14,7 +14,7 @@ int main()
 	//system("pause");
 
 	// 배열의 원소 중에서 최댓값 찾기
-  // #include <limits.h> --> INT_MIN
+	// #include <limits.h> --> INT_MIN
 	/*int a[10] = { 6,5,4,3,9,8,0,1,2,7 };
 	int i, maxValue = INT_MIN;
 	for (i = 0; i < 10; i++) {
