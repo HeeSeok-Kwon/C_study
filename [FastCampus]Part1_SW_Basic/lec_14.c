@@ -57,3 +57,4 @@ int main()
 	system("pause");
 	return 0;
 }
+// 동적 메모리 할당
