@@ -63,7 +63,6 @@ int main()
 // 전역변수 Test
 //#include <stdio.h>
 //
-//// 구조체 정의와 선언
 //struct Student {
 //	char studentId[10];
 //	char name[10];
