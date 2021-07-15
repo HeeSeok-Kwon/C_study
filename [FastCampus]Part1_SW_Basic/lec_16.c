@@ -59,3 +59,28 @@ int main()
 	return 0;
 }
 // 구조체
+
+// 전역변수 Test
+//#include <stdio.h>
+//
+//// 구조체 정의와 선언
+//struct Student {
+//	char studentId[10];
+//	char name[10];
+//	int grade;
+//	char major[100];
+//} s; 
+//
+//int main()
+//{
+//	
+//	// 전역변수는 한 번에 초기화가 안됨
+//	strcpy(s.studentId, "202107167");
+//	strcpy(s.name, "Simon");
+//	s.grade = 4;
+//	strcpy(s.major, "Computer Science");
+//	strcpy(s.studentId, "*********");
+//	printf("%s %s %d %s\n", s.studentId, s.name, s.grade, s.major);
+//	system("pause");
+//	return 0;
+//}
