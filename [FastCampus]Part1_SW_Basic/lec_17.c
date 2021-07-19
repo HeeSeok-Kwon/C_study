@@ -36,7 +36,7 @@ int main()
 	system("pause");
 	return 0;
 }
-
+// input.txt -> ANSI encoding --> UTF-8은 한글 깨짐
 // Window local 디버거 클릭 --> input.txt가 solution directory 바로 아래에 있어야 함(sln과 같은 위치)
 // Solution 우클릭 & 빌드 --> input.txt가 Debuf directory 바로 아래에 있어야 함(실행파일과 같은 위치)
 // 위 두 문제는 파일 경로 설정만 잘 해주면 해결될 것
