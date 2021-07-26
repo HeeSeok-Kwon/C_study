@@ -57,7 +57,7 @@
 
 
 
-// 포인터  연결 리스트
+// 포인터 기반의 연결 리스트
 #include <stdio.h>
 #include <stdlib.h>
 
