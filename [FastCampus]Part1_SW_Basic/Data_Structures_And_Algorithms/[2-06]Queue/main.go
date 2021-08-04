@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 5
+#define SIZE 10000
 #define INF 99999999
 
 int queue[SIZE];
