@@ -1,3 +1,4 @@
+// 배열을 이용한 큐
 #include <stdio.h>
 #define SIZE 5
 #define INF 99999999
