@@ -17,7 +17,6 @@ int main(void) {
         // 패딩
         if (length % keylen != 0) {
             int padding = 97;
-            if (keylen >= 11) keylen -= 1; // 10이 들어갈 경우 고려
             loop = length+keylen-(length % keylen);
             for(int i=length;i<loop;i++){
                 beforeStr[i] = padding++;
