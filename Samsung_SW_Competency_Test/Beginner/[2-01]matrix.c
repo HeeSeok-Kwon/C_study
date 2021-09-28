@@ -77,12 +77,12 @@ int main(void)
         } // 홀수일 수밖에 없다.
         for(i=0;i<3;i++) {
             pt[i][0] = atoi(strtok(cutStr[i], " "));
-            printf("%d ", pt[i][0]);
+            //printf("%d ", pt[i][0]);
             for(j=1;j<=(size[i]-1)/2;j++) {
                 pt[i][j] = atoi(strtok(NULL," "));
-                printf("%d ", pt[i][j]);
+                // printf("%d ", pt[i][j]);
             }
-            printf("\n"); 
+            // printf("\n"); 
         }
 
         for(i=0;i<3;i++) {
@@ -114,12 +114,12 @@ int main(void)
         }
       
         remainder = matrix(arrNum, num);
-        for(i=0;i<num;i++){
-            for(j=0;j<num;j++){
-                printf("%c ", arrNum[i][j]);
-            }
-            printf("\n");
-        }
+        // for(i=0;i<num;i++){
+        //     for(j=0;j<num;j++){
+        //         printf("%c ", arrNum[i][j]);
+        //     }
+        //     printf("\n");
+        // }
         printf("%d\n", remainder);
 
         for(i=0;i<num;i++) free(arrNum[i]);
