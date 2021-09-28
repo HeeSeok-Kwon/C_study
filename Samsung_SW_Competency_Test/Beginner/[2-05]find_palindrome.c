@@ -23,9 +23,9 @@ int main(void)
     int i,j,k,l;
     int testNum;
     scanf("%d", &testNum); // 테스트 케이스
-    scanf("%s", inputStr); // 입력받을 문자열
     for(l=0;l<testNum;l++)
     {
+        scanf("%s", inputStr); // 입력받을 문자열
         count = 0;
         strLen = strlen(inputStr); // 문자열 길이
         for(k=3;k<strLen;k++) // 회문을 판단할 글자 수 k
