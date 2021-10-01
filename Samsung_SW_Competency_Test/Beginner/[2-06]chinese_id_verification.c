@@ -16,7 +16,7 @@ int checkArea(char* areacode) {
 int checkBirth(char* birth) {
     int res = atoi(birth);
     // printf("%d\n", res);
-    if(res >= 19000101 && res <= 20141231) return 1;
+    if(res >= 19000101 && res <= 20141231) return 1; // 입력을 제대로 했다는 가정 아래 짠 
     return 0;
 }
 
